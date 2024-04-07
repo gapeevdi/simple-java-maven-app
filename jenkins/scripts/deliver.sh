@@ -16,6 +16,8 @@ set +x
 
 echo ~
 
+pwd
+
 echo 'The following command behaves similarly to the previous one but'
 echo 'extracts the value of the <version/> element within <project/> instead.'
 set -x
