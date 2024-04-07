@@ -14,7 +14,7 @@ set -x
 NAME=`mvn -q -DforceStdout help:evaluate -Dexpression=project.name`
 set +x
 
-ls
+echo ~
 
 echo 'The following command behaves similarly to the previous one but'
 echo 'extracts the value of the <version/> element within <project/> instead.'
